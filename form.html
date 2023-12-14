@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <title>form</title>
+    <link rel="shortcut icon" href="https://thesouthfirst.com/wp-content/uploads/2023/03/Arikomban-sleeping-peacefully.-The-picture-that-vent-viral.jpeg" type="image jpeg">
+
+</head>
+
+<body>
+    <nav>
+        <a href="mypage.html">arikomban</a>
+        <a href="form.html">feedback</a>
+       </nav>
+       <h1>feedback FORM</h1>
+       <form action="">
+        <fieldset>
+            <legend> USER INFO</legend>
+            <div>
+                <label for="user name">USER NAME</label>
+                <input type="text" id="user name">
+            </div>
+            <br>
+            <div>
+                <label for="usermail">USER MAIL</label>
+                <input type="text" id="usermail">
+            </div>
+            <br>
+            <div>
+                <label for="age">AGE</label>
+                <input type="number" id="age" min="18" max="40" >
+            </div>
+
+             <div>
+                <label for="date ">BIRTHDAY</label>
+                <input id="date" name="date" type="date" min="2023-01-30">
+             </div>
+        
+             <br>
+        
+             <div>
+             <label for="address">ADDRESS</label>
+             <textarea id="address" rows="5" cols="20"></textarea>
+            </div>
+            <br>
+            <div>
+                <label for="photo">PROFILE PIC</label>
+                <input id="photo " name="photo" type="file">
+            </div>
+            <br>
+            <div>
+                <label for="passward">PASSWARD</label>
+                <input id="passward" name="passward" type="password">
+            </div>
+
+            <p>GENDER</p>
+            <input name="gender" id="male" type="radio">
+            <label for="male">Male</label>
+        
+            <input  name="gender"  id="female" type="radio">
+            <label for="female">Female</label>
+
+            <input name="gender" id="na" type="radio">
+            <label for="na">N/A</label>
+
+            
+               </form>
+            
+        </fieldset>
+
+        <fieldset>
+            <legend>preference</legend>
+
+            <div>
+                favorate food 
+                <br>
+                <input  id="fried rice" type="checkbox">
+                <label for="fried rice">Fried rice</label>
+            </div>
+            <div>
+                <input  id="porotta" type="checkbox">
+                <label for="porotta">Porotta</label>
+            </div>
+                <div>
+                    <label for="kuzhi mandi">kuzhi mandi</label>
+                    <select name="" id="kuzhi mandi">
+                        <option value="small"> small</option>
+                        <option value="medium">medium</option>
+                        <option value="large">large</option>
+                    </select>
+                </div>
+                <div>
+                    <label for="icecream">choose an icecream flavor</label>
+                    <input list="ice-cream flavors">
+            <datalist id="ice-cream flavors">
+                    <option value="chocolate"></option>
+                    <option value="mint"></option>
+                    <option value="coconut"></option>
+                    <option value="vanila"></option>
+                    <option value="pistha"></option>
+
+
+            </datalist>
+                </div>
+                
+
+
+        </fieldset>
+        <div>
+            <button type="submit">SUBMIT</button>
+             <button type="reset">RESET</button>
+        </div>
+   
+</body>
+</html>
